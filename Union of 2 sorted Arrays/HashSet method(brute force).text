@@ -1,0 +1,12 @@
+Approach - we need only distinct elements from both the arrays which means there can be a use of a data structure that only stores unique elements and that data struture is Set or HashSet.
+**Note** - we are using unordered set here.
+
+Steps of solving problem :-
+1. add the elements of both arrays in set one by one.
+2. add the elements of set to arrayslist or array whatever you wanna return.
+3. sort the array where you stored the set.
+4. return the array.
+
+M - length of first array, N - length of second array, L - size of the set after adding elements.
+Time complexity = O(M) + O(N) + O(L) + O(L*logL)
+Space complexity = O(L) + O(L)
